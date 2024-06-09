@@ -1,3 +1,5 @@
+# 总的配置项，目前选的是dev配置项
+
 spring:
   config:
     name: big-market-app
