@@ -4,18 +4,18 @@
 
     <resultMap id="dataMap" type="cn.zf.infrastructure.persistent.po.StrategyRule">
         <id column="id" property="id"/>
-        <id column="strategy_id" property="strategyId"/>
-        <id column="award_id" property="awardId"/>
-        <id column="rule_type" property="ruleType"/>
-        <id column="rule_model" property="ruleModel"/>
-        <id column="rule_value" property="ruleValue"/>
-        <id column="rule_desc" property="ruleDesc"/>
-        <id column="create_time" property="createTime"/>
-        <id column="update_time" property="updateTime"/>
+        <result column="strategy_id" property="strategyId"/>
+        <result column="award_id" property="awardId"/>
+        <result column="rule_type" property="ruleType"/>
+        <result column="rule_model" property="ruleModel"/>
+        <result column="rule_value" property="ruleValue"/>
+        <result column="rule_desc" property="ruleDesc"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
     </resultMap>
 
     <select id="queryStrategyRuleList" resultMap="dataMap">
-        select strategy_rule
+        select strategy_id
         from strategy_rule
         limit 10
     </select>

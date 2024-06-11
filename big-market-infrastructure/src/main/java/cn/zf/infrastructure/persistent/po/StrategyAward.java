@@ -6,9 +6,9 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 /**
- * @Author: zf
- * @Description: 抽奖策略奖品明细配置（概率、规则）
- * @Create: 2024/6/8 10:29
+ * @author Fuzhengwei bugstack.cn @小傅哥
+ * @description 抽奖策略奖品明细配置 - 概率、规则
+ * @create 2023-12-16 13:14
  */
 @Data
 public class StrategyAward {
@@ -37,4 +37,5 @@ public class StrategyAward {
     private Date createTime;
     /** 修改时间 */
     private Date updateTime;
+
 }

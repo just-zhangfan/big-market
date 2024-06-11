@@ -5,15 +5,15 @@ import lombok.Data;
 import java.util.Date;
 
 /**
- * @Author: zf
- * @Description: 奖品表
- * @Create: 2024/6/8 10:49
+ * @author Fuzhengwei bugstack.cn @小傅哥
+ * @description 奖品表
+ * @create 2023-12-16 13:21
  */
 @Data
 public class Award {
 
     /** 自增ID */
-    private Integer id;
+    private Long id;
     /** 抽奖奖品ID - 内部流转使用 */
     private Integer awardId;
     /** 奖品对接标识 - 每一个都是一个对应的发奖策略 */
@@ -26,4 +26,5 @@ public class Award {
     private Date createTime;
     /** 更新时间 */
     private Date updateTime;
+
 }

@@ -4,10 +4,10 @@
 
     <resultMap id="dataMap" type="cn.zf.infrastructure.persistent.po.Strategy">
         <id column="id" property="id"/>
-        <id column="strategy_id" property="strategyId"/>
-        <id column="strategy_desc" property="strategyDesc"/>
-        <id column="create_time" property="createTime"/>
-        <id column="update_time" property="updateTime"/>
+        <result column="strategy_id" property="strategyId"/>
+        <result column="strategy_desc" property="strategyDesc"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
     </resultMap>
 
     <select id="queryStrategyList" resultMap="dataMap">

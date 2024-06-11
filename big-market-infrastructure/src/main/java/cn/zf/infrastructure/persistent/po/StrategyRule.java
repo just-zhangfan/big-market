@@ -5,9 +5,9 @@ import lombok.Data;
 import java.util.Date;
 
 /**
- * @Author: zf
- * @Description: 策略规则
- * @Create: 2024/6/8 10:40
+ * @author Fuzhengwei bugstack.cn @小傅哥
+ * @description 策略规则
+ * @create 2023-12-16 13:17
  */
 @Data
 public class StrategyRule {
@@ -15,7 +15,7 @@ public class StrategyRule {
     /** 自增ID */
     private Long id;
     /** 抽奖策略ID */
-    private Integer strategyId;
+    private Long strategyId;
     /** 抽奖奖品ID【规则类型为策略，则不需要奖品ID】 */
     private Integer awardId;
     /** 抽象规则类型；1-策略规则、2-奖品规则 */

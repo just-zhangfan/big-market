@@ -6,12 +6,13 @@ import org.apache.ibatis.annotations.Mapper;
 import java.util.List;
 
 /**
- * @Author: zf
- * @Description: 策略规则 Dao
- * @Create: 2024/6/8 15:50
+ * @author Fuzhengwei bugstack.cn @小傅哥
+ * @description 策略规则 DAO
+ * @create 2023-12-16 13:25
  */
 @Mapper
 public interface IStrategyRuleDao {
+
     List<StrategyRule> queryStrategyRuleList();
 
 }

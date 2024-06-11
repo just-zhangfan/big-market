@@ -13,11 +13,10 @@ import javax.annotation.Resource;
 import java.util.List;
 
 /**
- * @Author: zf
- * @Description: 奖品持久化单元测试
- * @Create: 2024/6/9 17:08
+ * @author Fuzhengwei bugstack.cn @小傅哥
+ * @description 奖品持久化单元测试
+ * @create 2023-12-16 13:36
  */
-
 @Slf4j
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -31,4 +30,5 @@ public class AwardDaoTest {
         List<Award> awards = awardDao.queryAwardList();
         log.info("测试结果：{}", JSON.toJSONString(awards));
     }
+
 }
