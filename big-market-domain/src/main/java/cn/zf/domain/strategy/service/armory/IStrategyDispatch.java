@@ -1,9 +1,9 @@
 package cn.zf.domain.strategy.service.armory;
 
 /**
- * @Author: zf
- * @Description: 策略抽奖调度
- * @Create: 2024/6/11 10:49
+ * @author Fuzhengwei bugstack.cn @小傅哥
+ * @description 策略抽奖调度
+ * @create 2023-12-31 15:15
  */
 public interface IStrategyDispatch {
 
@@ -14,5 +14,7 @@ public interface IStrategyDispatch {
      * @return 抽奖结果
      */
     Integer getRandomAwardId(Long strategyId);
+
+    Integer getRandomAwardId(Long strategyId, String ruleWeightValue);
 
 }
