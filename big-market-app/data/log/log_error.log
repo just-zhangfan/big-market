@@ -423,3 +423,4 @@ Caused by: java.lang.ClassNotFoundException: cn.zf.domain.strategy.model.entity.
 	at java.lang.Class.forName(Class.java:348)
 	at com.esotericsoftware.kryo.util.DefaultClassResolver.readName(DefaultClassResolver.java:176)
 	... 29 common frames omitted
+24-08-12.15:23:39.096 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m54s703ms783µs500ns).
