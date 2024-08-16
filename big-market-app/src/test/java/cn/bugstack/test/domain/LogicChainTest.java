@@ -16,9 +16,9 @@ import org.springframework.test.util.ReflectionTestUtils;
 import javax.annotation.Resource;
 
 /**
- * @Author: zf
- * @Description:
- * @Create: 2024/8/12 15:02
+ * @author Fuzhengwei bugstack.cn @小傅哥
+ * @description 抽奖责任链测试，验证不同的规则走不同的责任链
+ * @create 2024-01-20 11:20
  */
 @Slf4j
 @RunWith(SpringRunner.class)
@@ -65,4 +65,3 @@ public class LogicChainTest {
     }
 
 }
-
